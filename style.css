@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height:100vh;
+    background-image:url(./Redfort1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+ nav{
+    width: 100%;height: 15vh;
+    background:  rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.nav1{
+    width: 25%;
+    text-align:center
+}
+.nav2{
+    width: 40%;
+    display: flex;
+    justify-content:space-around;
+
+}
+.nav2 a{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+}
+ 
+section h1{
+    margin: 8px 0 16px 0;
+    font-size:   55px;
+    font-weight: 800;
+    text-shadow: 2px 1px 5px black;
+}
+section h3{
+    font-size: 35px;
+    font-family: 200;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 2px black  ;
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline:  none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+}
+section p{
+    margin:20px 20px;
+    font-size: larger;
+}
+.button1{
+    background:  #fff;
+    color : #000;
+}
+.button2{
+    background:  #00b894;
+    color : #000;
+}
+.change_content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    /* animation changetext tmiming howmanytimes perfectly linear */
+    color: rgba(19, 199, 163, 0.93) ;
+    text-transform: uppercase;
+}
+@keyframes changetext{
+    0%{content:"Cuttack" ;}
+    8%{content: "Pipili";}
+    16%{content:"Puri" ;}
+    32%{content:"Mumbai" ;}
+    48%{content:"Chennai" ;}
+    64%{content:"Delhi" ;}
+    80%{content:"Kolkata" ;}
+    100%{content:"Delhi";}
+}
+.button1:hover{
+     background:  #00b894;
+    color : #000; 
+}
+.button2:hover{
+     background:  #fff;
+    color : #000;
+}
+
+
