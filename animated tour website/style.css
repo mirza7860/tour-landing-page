@@ -84,7 +84,7 @@ section p{
 .change_content:after{
     content: '';
     animation: changetext 10s infinite linear;
-    /* animation changetext tmiming howmanytimes perfectly linear */
+    /* animation changetext timing howmanytimes perfectly linear */
     color: rgba(19, 199, 163, 0.93) ;
     text-transform: uppercase;
 }
